@@ -15,13 +15,9 @@ Address could be a ZIP Code or Text.
 Examples:
 ```
 Weather-App user$ node app.js -a 560001
-Formatted Address: Bengaluru, Karnataka 560001, India
-Latitude: 12.9765944
-Longitude: 77.5992708
+It is 70.79°F in Bengaluru, Karnataka 560001, India but it feels like 71.4°F.
 ```
 ```
-Weather-App user$ node app.js -a 'S.P. Infocity, Chennai'
-Formatted Address: No.40, MGR Nedunchalai South, Kandanchavadi, Perungudi, Chennai, Tamil Nadu 600096, India
-Latitude: 12.9696196
-Longitude: 80.2440227
+Weather-App user$ node app.js --address 'Taj Mahal'
+It is 83.88°F in Dharmapuri, Forest Colony, Tajganj, Agra, Uttar Pradesh 282001, India but it feels like 89.59°F.
 ```
