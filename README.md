@@ -1,5 +1,5 @@
 # Weather-App
-This is a simple command line node app which makes use of the google maps API to get the location and weather information.
+This is a simple command line node app which makes use of the google maps and Dark Sky(https://darksky.net/poweredby/) APIs to get the location and weather information.
 
 To use, download the repository, install the required packages using `npm install` and execute app.js using node.
 
