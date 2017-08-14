@@ -21,3 +21,7 @@ It is 70.79°F in Bengaluru, Karnataka 560001, India but it feels like 71.4°F.
 Weather-App user$ node app.js --address 'Taj Mahal'
 It is 83.88°F in Dharmapuri, Forest Colony, Tajganj, Agra, Uttar Pradesh 282001, India but it feels like 89.59°F.
 ```
+
+For this app to work, you need to have a Dark Sky API Secret Key. To get, register yourself here: https://darksky.net/dev
+
+Copy your secret key and substitute it for <dark-sky-api-key> in weather/weather.js.
