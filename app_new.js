@@ -23,7 +23,7 @@ axios.get(geocodeUrl).then((response) => {
   }
   let lat = response.data.results[0].geometry.location.lat;
   let lng = response.data.results[0].geometry.location.lng;
-  let weatherUrl = `https://api.darksky.net/forecast/794db3cba431afe223ca162ffe99ce93/${lat},${lng}`;
+  let weatherUrl = `https://api.darksky.net/forecast/dummy-api-key/${lat},${lng}`;
   console.log(response.data.results[0].formatted_address);
   return axios.get(weatherUrl);
 }).then((response) => {
